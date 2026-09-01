@@ -70,19 +70,19 @@ cd institution-management-system
 
 2. Configure MySQL
 
-Create a MySQL database named:
+- Create a MySQL database named:
 
-institution_management_system
+- institution_management_system
 
-The backend uses MySQL for storing application data.
+- The backend uses MySQL for storing application data.
 
-Configure your database credentials using environment variables.
+- Configure your database credentials using environment variables.
 
-For example:
+# For example:
 
-DB_PASSWORD=your_mysql_password
+- DB_PASSWORD=your_mysql_password
 
-DB_PASSWORD=your_mysql_password
+- DB_PASSWORD=your_mysql_password
 
 3. Run the Backend
 
