@@ -49,12 +49,12 @@ A full-stack web application developed to manage students, employees, courses, r
 
 ## Project Structure
 
-
-institution-management-system
-├── backend
-│   └── InstitutionManagementSystem
-└── frontend
-
+```
+institution-management-system/
+├── backend/
+│   └── InstitutionManagementSystem/
+└── frontend/
+```
 # How to Run the Project
 
 ## Make sure the following are installed:
@@ -64,11 +64,11 @@ institution-management-system
 - Node.js and npm
 - Maven
 
-1. Clone the Repository
+# 1. Clone the Repository
 git clone https://github.com/Renusri-12/institution-management-system.git
 cd institution-management-system
 
-2. Configure MySQL
+# 2. Configure MySQL
 
 - Create a MySQL database named:
 
@@ -83,7 +83,7 @@ cd institution-management-system
 - DB_PASSWORD=your_mysql_password
 
 
-3. Run the Backend
+# 3. Run the Backend
 
 - Open a terminal and run:
 
@@ -97,7 +97,7 @@ Then:
 
 http://localhost:8080
 
-4. Run the Frontend
+# 4. Run the Frontend
 
 - Open another terminal and run:
 
