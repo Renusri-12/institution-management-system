@@ -50,10 +50,10 @@ A full-stack web application developed to manage students, employees, courses, r
 ## Project Structure
 
 
-institution-management-system/
-├── backend/
-│   └── InstitutionManagementSystem/
-└── frontend/
+institution-management-system
+├── backend
+│   └── InstitutionManagementSystem
+└── frontend
 
 # How to Run the Project
 
@@ -82,7 +82,6 @@ cd institution-management-system
 
 - DB_PASSWORD=your_mysql_password
 
-- DB_PASSWORD=your_mysql_password
 
 3. Run the Backend
 
