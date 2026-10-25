@@ -153,6 +153,16 @@ Built with React.js to provide separate interfaces for administrators, students,
 - Role-based access control
 - Online fee payment
 
+
+## 📸 Project Screenshots
+
+### Admin Dashboard
+
+![Admin Dashboard](admin-dashboard.png)
+
+### Student Dashboard
+
+![Student Dashboard](student-dashboard.png)
 ## 👩‍💻 Author
 
 **Renu Sri Ramisetti**
