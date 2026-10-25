@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/React-Frontend-blue?logo=react)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 # 🏫 Institution Management System
 
