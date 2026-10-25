@@ -1,128 +1,135 @@
-# Institution Management System
+# 🏫 Institution Management System
 
-A full-stack web application developed to manage students, employees, courses, registrations, and administrative operations in an educational institution.
+A full-stack web application developed to manage students, employees, courses, registrations, and administrative operations within an educational institution.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Java
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- React.js
-- JavaScript
-- MySQL
-- Bootstrap
-- REST APIs
-- Maven
-- Swagger
+- **Backend:** Java, Spring Boot, Spring Data JPA, Hibernate
+- **Frontend:** React.js, JavaScript, Bootstrap
+- **Database:** MySQL
+- **API Development:** REST APIs, Swagger
+- **Build Tool:** Maven
 
-## Features
+## ✨ Features
 
-### Admin Module
-
+### 👨‍💼 Admin Module
 - Admin login
-- Student management
-- Employee management
+- Student and employee management
 - Course management
 - Course registration management
-- Dashboard with system counts
+- Dashboard displaying system counts
 - Employee approval
 
-### Student Module
-
-- Student registration
-- Student login
+### 🎓 Student Module
+- Student registration and login
 - View available courses
 - Register for courses
 - View registered courses
-- Student profile
+- Manage student profile
 
-### Employee Module
-
-- Employee registration
-- Employee login
+### 👩‍💻 Employee Module
+- Employee registration and login
 - Admin approval system
-- View students
-- View available courses
+- View students and available courses
 - Register for courses
 - View employee profile
 
-## Project Structure
+## 📂 Project Structure
 
-```
+```text
 institution-management-system/
 ├── backend/
 │   └── InstitutionManagementSystem/
 └── frontend/
 ```
-# How to Run the Project
 
-## Make sure the following are installed:
+## ⚙️ Prerequisites
+
+Make sure the following are installed:
 
 - Java 21 or later
 - MySQL
 - Node.js and npm
-- Maven
+- Maven (or use the included Maven Wrapper)
 
-# 1. Clone the Repository
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Renusri-12/institution-management-system.git
 cd institution-management-system
+```
 
-# 2. Configure MySQL
+### 2. Configure MySQL
 
-- Create a MySQL database named:
+Create a database named:
 
-- institution_management_system
+```sql
+CREATE DATABASE institution_management_system;
+```
 
-- The backend uses MySQL for storing application data.
+Configure your database credentials using the environment variables expected by your backend configuration. For example:
 
-- Configure your database credentials using environment variables.
+```text
+DB_PASSWORD=your_mysql_password
+```
 
-# For example:
+Keep your actual database password private. Never commit credentials to GitHub.
 
-- DB_PASSWORD=your_mysql_password
+### 3. Run the Backend
 
+Open a terminal and navigate to the backend directory:
 
-# 3. Run the Backend
+```bash
+cd backend/InstitutionManagementSystem
+```
 
-- Open a terminal and run:
+Start the Spring Boot application using the Maven Wrapper:
 
-- cd backend/InstitutionManagementSystem
+```bash
+./mvnw spring-boot:run
+```
 
-Then:
+On Windows, use:
 
-- mvnw spring-boot:run
+```powershell
+.\mvnw.cmd spring-boot:run
+```
 
-- The backend will run on:
+The backend is expected to run at:
 
+```text
 http://localhost:8080
+```
 
-# 4. Run the Frontend
+### 4. Run the Frontend
 
-- Open another terminal and run:
+Open another terminal and navigate to the frontend directory:
 
-- cd frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-- Install the required packages:
+The frontend will run using the Vite development server. Open the local URL displayed in your terminal.
 
-- npm install
+## 📘 API Documentation
 
-- Start the frontend:
+Swagger is used for API documentation and testing.
 
-- npm run dev
+When the backend is running, try:
 
-- The frontend will run using the Vite development server.
-
-# API Documentation
-
-- Swagger is used for API documentation and API testing.
-
-# Swagger UI:
-
+```text
 http://localhost:8080/swagger-ui.html
-Database
+```
 
-MySQL is used to store:
+If that URL does not work, check the Swagger configuration for the correct path.
+
+## 🗄️ Database
+
+MySQL stores application data related to:
 
 - Students
 - Employees
@@ -130,28 +137,25 @@ MySQL is used to store:
 - Course registrations
 - Other application data
 
-# Database name:
+**Database name:** `institution_management_system`
 
-# institution_management_system
-# Backend
+## 🏗️ Application Architecture
 
-- The backend is developed using Spring Boot and provides REST APIs for managing students, employees, courses, registrations, authentication, and administrative operations.
+### Backend
+Built with Spring Boot to provide REST APIs for student, employee, course, registration, authentication, and administrative operations.
 
-# Frontend
+### Frontend
+Built with React.js to provide separate interfaces for administrators, students, and employees.
 
-- The frontend is developed using React.js and provides separate interfaces for:
+## 🔮 Future Enhancements
 
-- Admin
-- Student
-- Employee
-- Future Enhancements
 - JWT-based authentication
 - Role-based access control
 - Online fee payment
 
-# Author
+## 👩‍💻 Author
 
-- Renu Sri Ramisetti
+**Renu Sri Ramisetti**
 
-
-
+- [GitHub Profile](https://github.com/Renusri-12)
+- [LinkedIn Profile](https://www.linkedin.com/in/renu-sri-ramisetti-a125a4368/)
