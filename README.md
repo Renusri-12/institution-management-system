@@ -1,3 +1,9 @@
+![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-brightgreen?logo=springboot)
+![React](https://img.shields.io/badge/React-Frontend-blue?logo=react)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 🏫 Institution Management System
 
 A full-stack web application developed to manage students, employees, courses, registrations, and administrative operations within an educational institution.
