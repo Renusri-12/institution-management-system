@@ -156,15 +156,17 @@ Built with React.js to provide separate interfaces for administrators, students,
 
 ## 📸 Project Screenshots
 
-### Admin Dashboard
+### 🏠 Home Page
+![Home Page](Home%20Page-dashboard.png.jpeg)
 
-![Admin Dashboard](admin-dashboard.png)
+### 👨‍💼 Admin Dashboard
+![Admin Dashboard](admin-dashboard.png.jpeg)
 
-### Student Dashboard
+### 🎓 Student Dashboard
+![Student Dashboard](Student-dashboard.png.jpeg)
 
-![Student Dashboard](student-dashboard.png)
-## 👩‍💻 Author
-
+### 👨‍💻 Employee Dashboard
+![Employee Dashboard](Employee-dashboard.png.jpeg)
 **Renu Sri Ramisetti**
 
 - [GitHub Profile](https://github.com/Renusri-12)
